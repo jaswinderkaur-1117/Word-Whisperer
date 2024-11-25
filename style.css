@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light sky blue background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h1 {
+    color: #004085; /* Dark blue for header */
+    font-size: 36px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Form Container */
+.container {
+    background-color: #ffffff; /* White background for the form area */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto; /* Center the form */
+}
+
+/* Form Fields */
+label {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical; /* Allow vertical resize */
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Submit Button */
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Section */
+.result-section {
+    background-color: #e9ecef; /* Light gray background for result area */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.result-section h4 {
+    color: #333;
+    font-size: 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
